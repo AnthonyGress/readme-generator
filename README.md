@@ -3,29 +3,37 @@
   ---
   ## <a name="Description" />Description
 
-  This is my short description
+  This is a README generator written using node.js. It outputs a README file based on your answers to the questions.
 
   ## Table of Contents
   * [Description](#Description)
-  * [Usage](#Usage)
   * [Installation](#Installation)
+  * [Usage](#Usage)
   * [Tests](#Tests)
   * [License](#License)
   * [Contributions](#Contributions)
   
-  
+  ## Installation 
+
+  #### Dependencies: *node.js*
+
+  To install please run:
+
+  `npm i`
 
   ## Usage
 
-  Just use the cli
+  To use this node module, clone the repo down, use the terminal to cd into the root directory. Then run:
+  
+  `node start`
 
-  ## Installation 
-
-  To install please run npm i
+  Answer all of the prompts and then a README file will be written into the same directory using the answers you provided.
   
   ## Tests
 
-  To test please run npm test
+  To test please run:
+  
+  `npm test`
 
   ## License 
 
