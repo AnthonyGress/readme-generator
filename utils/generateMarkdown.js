@@ -94,7 +94,7 @@ const generateMarkdown = (data) => {
 
   ${data.contribute}
   
-  If you have any questions, please contact me at ${data.email}
+  If you have any questions, please contact me on GitHub [${data.github}](https://github.com/${data.github}) or email me at ${data.email} 
   `
 
   return content;
