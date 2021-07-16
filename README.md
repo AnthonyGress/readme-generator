@@ -43,5 +43,5 @@
   
   Please feel free to contribute to this project. Just fork it and submit a well documented pull request.
   
-  If you have any questions, please contact me at email
+  If you have any questions, please contact me at techx@opayq.com
   

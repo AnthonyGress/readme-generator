@@ -61,7 +61,7 @@ const renderLicenseSection = (license) => {
 const generateMarkdown = (data) => {
   let content = `
   # ${data.title} ${renderLicenseBadge(data.license)}${renderLicenseLink(data.license)}
-  ---
+
   ## Description
 
   ${data.description}
