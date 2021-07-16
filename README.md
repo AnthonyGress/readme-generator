@@ -23,6 +23,8 @@
 
   ## Usage
 
+  [Video Walkthrough](https://youtu.be/bNYkc99inoo)
+
   To use this node module, clone the repo down, use the terminal to cd into the root directory. Then run:
   
   `node start`
