@@ -1,7 +1,7 @@
 
   # My Project Title [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
-  ## <a name="Description" />Description
+  ## Description
 
   This is a README generator written using node.js. It outputs a README file based on your answers to the questions.
 
