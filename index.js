@@ -57,8 +57,8 @@ const questions = [
   }, {
     type: 'input',
     name: 'contribute',
-    message: 'What does the user need to know about contributing to this repo?'
-
+    message: 'What does the user need to know about contributing to this repo?',
+    default: 'Please feel free to contribute to this project. Just fork it and submit a well documented pull request.'
   }
 ];
 
@@ -75,7 +75,7 @@ function init() {
   inquirer
   .prompt(questions)
   .then((answers) => {
-    writeToFile('2README.md', generateMarkdown(answers));
+    writeToFile('README.md', generateMarkdown(answers));
   })
   .catch((error) => {
     if (error.isTtyError) {
